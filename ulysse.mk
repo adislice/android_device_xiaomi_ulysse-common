@@ -458,6 +458,10 @@ PRODUCT_PACKAGES += \
     vndk-ext \
     libstdc++.vendor
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # Thermal
 PRODUCT_PACKAGES += \
     thermal.msm8937
