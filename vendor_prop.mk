@@ -68,6 +68,7 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.motorola.faceunlock,com
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
+ro.charger.disable_init_blank=true \
 ro.charger.enable_suspend=true
 
 # Cne/Dpm
